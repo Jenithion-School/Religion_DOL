@@ -1,12 +1,31 @@
-/* Default Classes */
+/* Defualts */
+main{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    max-width: 950px;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top: 1vh;
+}
+th{
+    text-align: left;
+    padding-bottom: 1%;
+}
+
+/* Global Classes */
 .flex{
     display: flex;
+}
+.column{
+    width: 100%;
 }
 
 /* Header and Footer */
 header{
     position: relative;
     max-height: 2in;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0.1em 0.1em 0.3em dimgray;
 }
 header img{
     object-fit: cover;
@@ -14,16 +33,24 @@ header img{
     width: 100%;
 }
 header h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bolder;
     position: absolute;
     margin-top: 2%;
     left: 15%;
+    color: white;
 }
 header h1{
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
+    font-size: xx-large;
+    font-weight: bolder;
     text-align: center;
     width: 100%; 
     left: 0px;
     top: 50%;
+    color: white;
 }
 header ul{
     position: absolute;
@@ -32,25 +59,77 @@ header ul{
     max-height: 1em;
 }
 header li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
     margin-left: 5%;
     margin-top: auto;
     margin-bottom: auto;
-    font-style: italic;
+    font-style: oblique;
+    font-weight: bold;
 }
 header a{
     font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    font-weight: bolder;
 }
 
 /* Index page */
-#index{
-    background-color: white;
-}
 #index img{
     object-fit: cover;
     width: 20vh;
     height: 30vh;
 }
+#index .column{
+    margin-bottom: 3%;
+}
+#index p{
+    min-width: 607px;
+    margin: 4%;
+}
+#index table{
+    padding-top: 19%;
+}
 
 /* Scriputre page */
+#Scriptures img{
+    object-fit: contain;
+    width: 45%;
+
+}
+#Scriptures p{
+    width: 55%;
+    margin-left: 2%;
+}
+
 /* Catechism Page */
+#Catechism img{
+    object-fit: cover;
+    max-height: 1in;
+}
+#Catechism h4{
+    width: 45%;
+    margin-top: 2%;
+    list-style-type: none;
+    font-weight: normal;
+}
+#Catechism p{
+    width: 55%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#Catechism li{
+    padding-left: 20px;
+    margin-top: 1%;
+}
+
 /* Connection Page */
+#Connection img{
+    object-fit: contain;
+    width: 35vh;
+}
+#Connection p{
+    margin: 4%;
+}
