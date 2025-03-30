@@ -1,6 +1,11 @@
 /* Defualts */
+body{
+    /* background-color: dimgray; */
+    /* color: floralwhite; */
+}
 main{
     font-family: 'Montserrat', sans-serif;
+    /* background-color: dimgray; */
     background-color: white;
     max-width: 950px;
     margin: 0 auto;
@@ -56,16 +61,15 @@ header ul{
     position: absolute;
     right: 15%;
     margin-top: 2%;
-    max-height: 1em;
 }
 header li{
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
+    margin: auto;
     margin-left: 5%;
-    margin-top: auto;
-    margin-bottom: auto;
     font-style: oblique;
     font-weight: bold;
+    max-height: 1em;
 }
 header a{
     font-style: normal;
@@ -81,27 +85,37 @@ header a:hover{
     object-fit: cover;
     width: 20vh;
     height: 30vh;
+    margin: auto;
 }
 #index .column{
     margin-bottom: 3%;
 }
 #index p{
     min-width: 607px;
-    margin: 4%;
+    padding: 4%;
 }
 #index table{
-    padding-top: 19%;
+    margin-top: 20%;
+    margin: 5%;
+}
+#index tr{
+    background-color: whitesmoke;
 }
 
 /* Scriputre page */
+#Scriptures .column{
+    margin-bottom: 2%;
+}
 #Scriptures img{
-    object-fit: contain;
+    object-fit: cover;
     width: 45%;
-
+    max-height: 690px;
 }
 #Scriptures p{
     width: 55%;
+    margin: auto;
     margin-left: 2%;
+
 }
 
 /* Catechism Page */
